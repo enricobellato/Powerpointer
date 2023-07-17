@@ -57,7 +57,7 @@ Example! - Stick to this formatting exactly!
 
 def create_ppt_text(Input):
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": (Prompt)},
             {"role": "user", "content": ("The user wants a presentation about " + Input)}
