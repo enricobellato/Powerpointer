@@ -9,7 +9,6 @@ from pptx.util import Inches
 import random 
 import re
 
-openai.api_key = "YOUR_API_KEY"
 app = Flask(__name__)
 
 limiter = Limiter(
